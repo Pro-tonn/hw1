@@ -24,6 +24,7 @@ static void vars()
     printf("STATUSCODE\n");
 }
 
+
 extern void usage();
 extern void vars();
 extern void methods();
@@ -34,29 +35,29 @@ extern int STATUSCODE;
 extern int FULL;
 extern int RESTRICTED;
 
+
 void reverse_string(char* string) {
     char* startPtr = string;
     char* endPtr = string + strlen(string) - 1;
 
     while (startPtr < endPtr) {
-        char temp = startPtr;
-        startPtr =endPtr;
-        endPtr = temp;
+        char temp = *startPtr;
+        *startPtr = *endPtr;
+        *endPtr = temp;
 
         startPtr++;
         endPtr--;
     }
 }
 
-
-int main(int argc, char argv[])
+int main(int argc, char* argv[])
 {
     if (argc != 2) {
         fprintf(stderr, "Program needs at least one argument\n");
         return 1;
     }
 
-    char arg = argv[1];
+    char* arg = argv[1];
     if (!strcmp(arg, "methods")) {
         methods();
     }
