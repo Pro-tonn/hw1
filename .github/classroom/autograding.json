@@ -1,0 +1,304 @@
+{
+"tests": [
+   {
+       "name": "Test 1",
+       "setup": "",
+       "run": "grep 'TEST 01-functions PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 15
+   },
+   {
+       "name": "Test 2",
+       "setup": "",
+       "run": "grep 'TEST 02-variables PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 15
+   },
+   {
+       "name": "Test 3",
+       "setup": "",
+       "run": "grep 'TEST 03-help PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 16
+   },
+   {
+       "name": "Test 4",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-01 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 5",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-02 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 6",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-03 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 7",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-04 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 8",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-05 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 9",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-06 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 10",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-07 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 11",
+       "setup": "",
+       "run": "grep 'TEST 04-fingerprint-08 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 12",
+       "setup": "",
+       "run": "grep 'TEST 05-error-01 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 13",
+       "setup": "",
+       "run": "grep 'TEST 05-error-02 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 14",
+       "setup": "",
+       "run": "grep 'TEST 05-error-03 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 15",
+       "setup": "",
+       "run": "grep 'TEST 05-error-04 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 16",
+       "setup": "",
+       "run": "grep 'TEST 05-error-05 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 17",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-01 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 18",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-02 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 19",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-03 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 20",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-04 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 21",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-05 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 22",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-06 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 23",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-07 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 24",
+       "setup": "",
+       "run": "grep 'TEST 06-mode-08 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 25",
+       "setup": "",
+       "run": "grep 'TEST 07-mode-error-01 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 26",
+       "setup": "",
+       "run": "grep 'TEST 07-mode-error-02 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 27",
+       "setup": "",
+       "run": "grep 'TEST 07-mode-error-03 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 28",
+       "setup": "",
+       "run": "grep 'TEST 07-mode-error-04 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 29",
+       "setup": "",
+       "run": "grep 'TEST 07-mode-error-05 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   },
+   {
+       "name": "Test 30",
+       "setup": "",
+       "run": "grep 'TEST 07-mode-error-06 PASSED' out.log",
+       "input": "",
+       "output": "",
+       "comparison": "included",
+       "timeout": 10,
+       "points": 2
+   }
+]
+}
